@@ -3,7 +3,7 @@ using RPVRS.Labs.Lab1.API.Models;
 
 namespace RPVRS.Labs.Lab1.API.Controllers;
 [Route("api/robot")]
-public class RobotController
+public class RobotController: Controller
 {
     private readonly Cache _cache;
 

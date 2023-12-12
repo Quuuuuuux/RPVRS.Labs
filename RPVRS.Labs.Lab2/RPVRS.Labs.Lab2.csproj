@@ -8,14 +8,44 @@
 
     <ItemGroup>
       <ProjectReference Include="..\RPVRS.Labs.CacheDb\RPVRS.Labs.CacheDb.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Resources\" />
+      <ProjectReference Include="..\RPVRS.Labs.Models\RPVRS.Labs.Models.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="RiskFirst.Hateoas" Version="3.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\Controllers.RobotController.ru.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Controllers.RobotController.ru.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Controllers.RobotController.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Controllers.RobotController.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Controllers.RobotController.de.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Controllers.RobotController.de.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\Controllers.RobotController.ru.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Controllers.RobotController.ru.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Controllers.RobotController.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Controllers.RobotController.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Controllers.RobotController.de.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Controllers.RobotController.de.resx</DependentUpon>
+      </Compile>
     </ItemGroup>
 
 </Project>
