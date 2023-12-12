@@ -32,4 +32,18 @@
     <data name="NoSuchRobot" xml:space="preserve">
         <value>Kein solcher Roboter</value>
     </data>
+    <data name="SuccesGet" xml:space="preserve">
+        <value>Roboter erfolgreich gefunden
+
+</value>
+    </data>
+    <data name="DeleteRoute" xml:space="preserve">
+        <value>Roboter aus der Datenbank löschen</value>
+    </data>
+    <data name="SelfRoute" xml:space="preserve">
+        <value>selbst</value>
+    </data>
+    <data name="UpdateRoute" xml:space="preserve">
+        <value>Roboter in der Datenbank aktualisieren</value>
+    </data>
 </root>

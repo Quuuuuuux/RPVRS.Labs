@@ -30,4 +30,16 @@
     <data name="NoSuchRobot" xml:space="preserve">
         <value>Такого робота не существует</value>
     </data>
+    <data name="SuccesGet" xml:space="preserve">
+        <value>Робот успешно найден</value>
+    </data>
+    <data name="DeleteRoute" xml:space="preserve">
+        <value>Удалить робота из базы данных</value>
+    </data>
+    <data name="UpdateRoute" xml:space="preserve">
+        <value>Обновить робота в базе данных</value>
+    </data>
+    <data name="SelfRoute" xml:space="preserve">
+        <value>Ссылка на себя</value>
+    </data>
 </root>

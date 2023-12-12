@@ -68,5 +68,29 @@ namespace RPVRS.Labs.Lab2.Resources {
                 return ResourceManager.GetString("NoSuchRobot", resourceCulture);
             }
         }
+        
+        internal static string SuccesGet {
+            get {
+                return ResourceManager.GetString("SuccesGet", resourceCulture);
+            }
+        }
+        
+        internal static string DeleteRoute {
+            get {
+                return ResourceManager.GetString("DeleteRoute", resourceCulture);
+            }
+        }
+        
+        internal static string UpdateRoute {
+            get {
+                return ResourceManager.GetString("UpdateRoute", resourceCulture);
+            }
+        }
+        
+        internal static string SelfRoute {
+            get {
+                return ResourceManager.GetString("SelfRoute", resourceCulture);
+            }
+        }
     }
 }

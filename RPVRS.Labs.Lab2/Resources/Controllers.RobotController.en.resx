@@ -30,4 +30,16 @@
     <data name="NoSuchRobot" xml:space="preserve">
         <value>No such robot</value>
     </data>
+    <data name="SuccesGet" xml:space="preserve">
+        <value>Robot successfully found</value>
+    </data>
+    <data name="DeleteRoute" xml:space="preserve">
+        <value>Delete robot from database</value>
+    </data>
+    <data name="SelfRoute" xml:space="preserve">
+        <value>Self</value>
+    </data>
+    <data name="UpdateRoute" xml:space="preserve">
+        <value>Update robot in database</value>
+    </data>
 </root>

@@ -12,10 +12,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="RiskFirst.Hateoas" Version="3.1.1" />
-    </ItemGroup>
-
-    <ItemGroup>
       <EmbeddedResource Update="Resources\Controllers.RobotController.ru.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Controllers.RobotController.ru.Designer.cs</LastGenOutput>
@@ -46,6 +42,7 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>Controllers.RobotController.de.resx</DependentUpon>
       </Compile>
+      <Compile Remove="ResponseModels\ResultObjectEnricher.cs" />
     </ItemGroup>
 
 </Project>
